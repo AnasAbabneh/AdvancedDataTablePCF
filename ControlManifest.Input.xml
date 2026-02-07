@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="Anas" constructor="AdvancedDataTable" version="1.0.0" display-name-key="AdvancedDataTable" description-key="Advanced Data Table PCF" control-type="standard">
+    <property name="dataset" display-name-key="Dataset" description-key="Dataset" of-type="Dataset" usage="bound" required="true" />
+    <property name="pageSize" display-name-key="Page Size" description-key="Page Size" of-type="Whole.None" default-value="50" />
+    <property name="enableSorting" display-name-key="Enable Sorting" description-key="Enable Sorting" of-type="TwoOptions" default-value="true" />
+    <property name="enableMultiSelect" display-name-key="Enable Multi Select" description-key="Enable Multi Select" of-type="TwoOptions" default-value="false" />
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+  </control>
+</manifest>

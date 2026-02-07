@@ -1,0 +1,12 @@
+{
+  "name": "advanced-datatable-pcf",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "pcf-scripts build",
+    "start": "pcf-scripts start"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
